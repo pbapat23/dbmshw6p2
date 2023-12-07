@@ -792,6 +792,7 @@ def start():
     print("> create_caregiver <username> <password>")
     print("> login_patient <username> <password>")  # // TODO: implement login_patient (Part 1)
     print("> login_caregiver <username> <password>")
+    #I have explicitly asked for MM, DD, YYYY seperately to provide a better, error-free user experience. Otherwise, Users may assume different date formats!
     print("> search_caregiver_schedule <MM> <DD> <YYYY>")  # // TODO: implement search_caregiver_schedule (Part 2)
     print("> reserve <MM> <DD> <YYYY> <vaccine>")  # // TODO: implement reserve (Part 2)
     print("> upload_availability <date>")
